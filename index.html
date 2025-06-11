@@ -461,7 +461,7 @@
                     slide.classList.toggle('active', index === currentIndex);
                 });
 
-                const slideWidth = slides[0].offsetWidth + 20; // includes margin
+                const slideWidth = slides[0].offsetWidth + 20; 
                 track.style.transform = `translateX(${-currentIndex * slideWidth}px)`;
             }
 
@@ -479,7 +479,7 @@
                 }
             };
 
-            updateSlider(); // Initialize on load
+            updateSlider();
         });
     </script>
 
